@@ -8,3 +8,20 @@
 .main-container {
   min-height: 75.7vh;
 }
+
+.load {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loadimg{
+  animation: rotation 2s linear 0s infinite;
+}
+
+@keyframes rotation {
+  from{}
+  to{transform: rotate(360deg);}
+  
+}
